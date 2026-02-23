@@ -1,4 +1,4 @@
-#SentinelShield: AdvancedIntrusion Detection Web Protection System
+# SentinelShield: AdvancedIntrusion Detection Web Protection System
 
 SentinelShield is a Python-based, real-time web security application designed to detect, analyze, and block common web attacks before they compromise your system. Built using Flask with advanced pattern matching, rate-limiting, and automated IP blocking, this project demonstrates a full-stack approach to modern cybersecurity for web applications.
 
